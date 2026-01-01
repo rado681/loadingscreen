@@ -22,9 +22,9 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(10px); /* Default blur intensity */
+    filter: blur(10px);
     transition: filter 0.5s ease;
-    transform: scale(1.1); /* Slightly scale to prevent blur edge artifacts */
+    transform: scale(1.1);
 }
 
 .video-container video.no-blur {
@@ -37,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Slight dark overlay for better logo visibility */
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .content {
